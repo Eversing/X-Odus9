@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.19" GSCVersion="0.10.0">
+  <sounds>
+    <music name="qQgxkKsoDt4">
+      <file name="qQgxkKsoDt4.m4a" size="4414966" />
+    </music>
+    <sound name="Explosion">
+      <file name="Explosion.ogg" size="15819" />
+    </sound>
+    <sound name="Laser_Shoot">
+      <file name="Laser_Shoot.ogg" size="9271" />
+    </sound>
+    <sound name="Pickup_Coin">
+      <file name="Pickup_Coin.ogg" size="6994" />
+    </sound>
+    <sound name="Powerup2">
+      <file name="Powerup2.ogg" size="11053" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="city__r1398266171">
+      <file name="city__r1398266171.png" size="7541" />
+    </image>
+    <image name="ruins_city_by_hayrenn-d7rjniq">
+      <file name="ruins_city_by_hayrenn-d7rjniq.png" size="7087" />
+    </image>
+    <image name="urban_warfare_by_riisirakett-d6z2232">
+      <file name="urban_warfare_by_riisirakett-d6z2232.png" size="20154" />
+    </image>
+    <image name="Ship">
+      <file name="Ship.png" size="622" />
+    </image>
+    <image name="X-Odus Title">
+      <file name="X-Odus Title.png" size="663821" />
+    </image>
+    <image name="Play Finish">
+      <file name="Play Finish.png" size="195140" />
+    </image>
+    <image name="Instructions">
+      <file name="Instructions.png" size="449004" />
+    </image>
+    <image name="Credits Finish">
+      <file name="Credits Finish.png" size="644363" />
+    </image>
+    <image name="Untitled">
+      <file name="Untitled.png" size="1172" />
+    </image>
+    <image name="GAME OVER">
+      <file name="GAME OVER.png" size="729510" />
+    </image>
+    <image name="BACK">
+      <file name="BACK.png" size="773580" />
+    </image>
+    <image name="BossShip">
+      <file name="BossShip.png" size="3895" />
+    </image>
+    <image name="city_by_kristanalon-d5c801h">
+      <file name="city_by_kristanalon-d5c801h.png" size="7840" />
+    </image>
+    <image name="TRY AGAIN">
+      <file name="TRY AGAIN.png" size="679187" />
+    </image>
+    <image name="iconmonstr-control-panel-12-icon-256">
+      <file name="iconmonstr-control-panel-12-icon-256.png" size="5126" />
+    </image>
+    <image name="iconmonstr-control-panel-14-icon-256">
+      <file name="iconmonstr-control-panel-14-icon-256.png" size="5651" />
+    </image>
+    <image name="EnemyLazer">
+      <file name="EnemyLazer.png" size="248" />
+    </image>
+    <image name="Lazer">
+      <file name="Lazer.png" size="256" />
+    </image>
+  </images>
+  <behaviors />
+</assets>
