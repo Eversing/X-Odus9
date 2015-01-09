@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id101479" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id104068" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Score</text>
+    <text id="name">Text 5</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -22,7 +22,60 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id852915" class="DisplayTextBehavior" enabled="true">
+      <attributes>
+        <text id="name">Display Text</text>
+        <text id="bundleName">DisplayText.behavior</text>
+        <text id="text">The endless nightmare. Survivor's guilt. Cursed by chance to a life of sorrow. Ever since that day...</text>
+        <text id="font">Georgia</text>
+        <real id="size">30</real>
+        <index id="alignment">1</index>
+        <boolean id="wrap">true</boolean>
+        <color id="color">
+          <real id="red">0</real>
+          <real id="green">0</real>
+          <real id="blue">0</real>
+          <real id="alpha">1</real>
+        </color>
+      </attributes>
+    </behavior>
+    <behavior id="id486361" class="MoveBehavior" enabled="true">
+      <attributes>
+        <text id="name">Move</text>
+        <text id="bundleName">Move.behavior</text>
+        <angle id="direction">90</angle>
+        <index id="space">1</index>
+        <index id="moveType">0</index>
+        <real id="speed">25</real>
+      </attributes>
+    </behavior>
+    <behavior id="id169329" class="TimerBehavior" enabled="true">
+      <attributes>
+        <text id="name">Timer</text>
+        <text id="bundleName">Timer.behavior</text>
+        <index id="timerType">1</index>
+        <real id="interval">15</real>
+        <boolean id="runToCompletion">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id559172" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id885113</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id353536" class="StopMusicAction" enabled="true">
+          <attributes>
+            <text id="name">Stop Music</text>
+            <text id="bundleName">StopMusic.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>

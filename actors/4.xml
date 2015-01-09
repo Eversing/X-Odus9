@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id625040" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id625040" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Game Over Background</text>
     <real id="time">0</real>
@@ -9,7 +9,7 @@
     </point>
     <size id="size">
       <real id="width">480</real>
-      <real id="height">288</real>
+      <real id="height">320</real>
     </size>
     <angle id="rotation">0</angle>
     <color id="color">

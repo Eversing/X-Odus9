@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id768665" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id768665" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Credits</text>
     <real id="time">0</real>
@@ -56,6 +56,14 @@
             <text id="bundleName">ChangeScene.behavior</text>
             <text id="sceneKey">id643272</text>
             <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id224813" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id720936</text>
+            <text id="RHS">2</text>
           </attributes>
         </behavior>
       </behaviors>

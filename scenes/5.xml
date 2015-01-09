@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id885113">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id325189">
   <layers>
-    <layer id="id711043">
+    <layer id="id694727">
       <actors>
-        <actor id="id980564" prototype="id746284">
+        <actor id="id463989" prototype="id746284">
           <attributes>
             <point id="position">
               <real id="x">479</real>
@@ -14,12 +14,10 @@
               <real id="height">320</real>
             </size>
             <angle id="rotation">0</angle>
-            <text id="name">Battle 1 Background Copy 1</text>
           </attributes>
           <aspects>
             <graphics>
               <attributes>
-                <boolean id="flipHorizontally">false</boolean>
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
@@ -30,7 +28,7 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id990283" prototype="id746284">
+        <actor id="id189237" prototype="id746284">
           <attributes>
             <point id="position">
               <real id="x">0</real>
@@ -45,7 +43,6 @@
           <aspects>
             <graphics>
               <attributes>
-                <boolean id="flipHorizontally">false</boolean>
                 <integer id="tileWidth" name="tileWidth">0</integer>
                 <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
@@ -56,7 +53,7 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id248664" prototype="id243138">
+        <actor id="id444783" prototype="id243138">
           <attributes>
             <point id="position">
               <real id="x">47</real>
@@ -81,7 +78,7 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id555162" prototype="id357998">
+        <actor id="id523720" prototype="id357998">
           <attributes>
             <point id="position">
               <real id="x">47</real>
@@ -106,6 +103,72 @@
             </physics>
           </aspects>
         </actor>
+        <actor id="id241107" prototype="id355835">
+          <attributes>
+            <point id="position">
+              <real id="x">562</real>
+              <real id="y">0</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id664396" prototype="id772693">
+          <attributes>
+            <point id="position">
+              <real id="x">624</real>
+              <real id="y">231</real>
+            </point>
+            <size id="size">
+              <real id="width">120</real>
+              <real id="height">120</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id886240" prototype="id957799">
+          <attributes>
+            <point id="position">
+              <real id="x">706</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">400</real>
+              <real id="height">400</real>
+            </size>
+            <angle id="rotation">-90</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
       </actors>
       <attributes>
         <text id="name">Background</text>
@@ -114,7 +177,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Battle 1</text>
+    <text id="name">Battle 1.5</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>

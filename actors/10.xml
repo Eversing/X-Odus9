@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id660278" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id660278" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">GAME OVER BACKGROUND</text>
     <real id="time">0</real>
@@ -22,7 +22,16 @@
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
-  <behaviors />
+  <behaviors>
+    <behavior id="id485109" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">Change Attribute</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id720936</text>
+        <text id="RHS">2</text>
+      </attributes>
+    </behavior>
+  </behaviors>
   <aspects>
     <graphics>
       <attributes>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id284181">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id284181">
   <layers>
     <layer id="id464987">
       <actors>
@@ -81,12 +81,12 @@
         <actor id="id983943" prototype="id529563">
           <attributes>
             <point id="position">
-              <real id="x">244.666666666667</real>
-              <real id="y">258.40625</real>
+              <real id="x">244666666666667</real>
+              <real id="y">25840625</real>
             </point>
             <size id="size">
-              <real id="width">473.666666666667</real>
-              <real id="height">122.8125</real>
+              <real id="width">473666666666667</real>
+              <real id="height">1228125</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
@@ -106,12 +106,12 @@
         <actor id="id778661" prototype="id800374">
           <attributes>
             <point id="position">
-              <real id="x">57.5</real>
-              <real id="y">45.5</real>
+              <real id="x">52</real>
+              <real id="y">38</real>
             </point>
             <size id="size">
               <real id="width">76</real>
-              <real id="height">48</real>
+              <real id="height">53</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

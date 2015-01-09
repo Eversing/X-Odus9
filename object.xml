@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.10.0" PGFVersion="0.19" title="X-Odus">
+<game GSCVersion="0.10.5" PGFVersion="0.19" title="X-Odus">
   <tags />
   <resolutionIndependence>1</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -29,19 +29,26 @@
     <actor id="id472425" />
     <actor id="id550340" />
     <actor id="id800235" />
-    <actor id="id432989" />
     <actor id="id617919" />
+    <actor id="id432989" />
     <actor id="id318781" />
-    <actor id="id101479" />
-    <actor id="id142344" />
+    <actor id="id104068" />
+    <actor id="id772693" />
+    <actor id="id724394" />
+    <actor id="id787816" />
+    <actor id="id611453" />
+    <actor id="id355835" />
+    <actor id="id104602" />
+    <actor id="id870014" />
+    <actor id="id792774" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id294879" />
     <scene id="id643272" />
     <scene id="id284181" />
-    <scene id="id996813" />
     <scene id="id885113" />
+    <scene id="id325189" />
     <scene id="id969298" />
     <scene id="id883552" />
     <scene id="id709257" />
@@ -54,10 +61,10 @@
       <real id="height">200</real>
     </size>
     <text id="actorTags">All	Enemies</text>
-    <integer id="id692143" name="Player Health">100</integer>
-    <integer id="id414428" name="Boss Health">1000</integer>
+    <integer id="id414428" name="Boss Health">100</integer>
     <integer id="id212931" name="TotalScore">0</integer>
-    <boolean id="id972552" name="LevelUnlock">false</boolean>
-    <integer id="id962818" name="MUSIQUE">0</integer>
+    <integer id="id720936" name="Scene">0</integer>
+    <integer id="id443302" name="Music">0</integer>
+    <integer id="id284560" name="Pause Menu">0</integer>
   </attributes>
 </game>

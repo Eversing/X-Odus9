@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id766577" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id766577" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Text</text>
     <real id="time">0</real>
@@ -27,7 +27,7 @@
       <attributes>
         <text id="name">Display Text</text>
         <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">Use WASD keys for movement, click to fire, and z, x, c to use the different character abilities.</text>
+        <text id="text">Use WASD keys for movement and space to fire. Otherwise, enjoy!</text>
         <text id="font">Trebuchet MS</text>
         <real id="size">30</real>
         <index id="alignment">2</index>

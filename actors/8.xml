@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id337996" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id337996" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Title</text>
     <real id="time">0</real>

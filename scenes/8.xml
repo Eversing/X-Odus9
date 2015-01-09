@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id709257">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id709257">
   <layers>
     <layer id="id215724">
       <actors>
@@ -17,7 +17,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -28,18 +31,21 @@
         <actor id="id212984" prototype="id893038">
           <attributes>
             <point id="position">
-              <real id="x">242.407407407407</real>
-              <real id="y">182.3046875</real>
+              <real id="x">242407407407407</real>
+              <real id="y">1823046875</real>
             </point>
             <size id="size">
-              <real id="width">451.814814814815</real>
-              <real id="height">276.609375</real>
+              <real id="width">451814814814815</real>
+              <real id="height">276609375</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -50,8 +56,8 @@
         <actor id="id445094" prototype="id800374">
           <attributes>
             <point id="position">
-              <real id="x">46.5</real>
-              <real id="y">34.5</real>
+              <real id="x">46</real>
+              <real id="y">28</real>
             </point>
             <size id="size">
               <real id="width">76</real>
@@ -61,7 +67,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>

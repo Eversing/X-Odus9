@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<assets PGFVersion="0.19" GSCVersion="0.10.0">
+<assets PGFVersion="0.19" GSCVersion="0.10.5">
   <sounds>
-    <music name="qQgxkKsoDt4">
-      <file name="qQgxkKsoDt4.m4a" size="4414966" />
+    <music name="Red13byParagonX9">
+      <file name="Red13byParagonX9.m4a" size="7627380" />
     </music>
     <sound name="Explosion">
       <file name="Explosion.ogg" size="15819" />
     </sound>
     <sound name="Laser_Shoot">
       <file name="Laser_Shoot.ogg" size="9271" />
-    </sound>
-    <sound name="Pickup_Coin">
-      <file name="Pickup_Coin.ogg" size="6994" />
-    </sound>
-    <sound name="Powerup2">
-      <file name="Powerup2.ogg" size="11053" />
     </sound>
   </sounds>
   <images>
@@ -71,6 +65,24 @@
     </image>
     <image name="Lazer">
       <file name="Lazer.png" size="256" />
+    </image>
+    <image name="EnemyShip">
+      <file name="EnemyShip.png" size="4080" />
+    </image>
+    <image name="Pause Menu">
+      <file name="Pause Menu.png" size="124376" />
+    </image>
+    <image name="Pause button">
+      <file name="Pause button.png" size="486877" />
+    </image>
+    <image name="Quitter">
+      <file name="Quitter.png" size="11002" />
+    </image>
+    <image name="points">
+      <file name="points.png" size="92836" />
+    </image>
+    <image name="Play Finis2h">
+      <file name="Play Finis2h.png" size="191086" />
     </image>
   </images>
   <behaviors />

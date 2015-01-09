@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id432989" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id617919" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Laser</text>
+    <text id="name">Enemy Laser</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -18,22 +18,52 @@
       <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">Lazer</image>
+    <image id="image">EnemyLazer</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id303266" class="MoveBehavior" enabled="true">
+    <behavior id="id857191" class="MoveBehavior" enabled="true">
       <attributes>
         <text id="name">Move</text>
         <text id="bundleName">Move.behavior</text>
-        <angle id="direction">0</angle>
+        <angle id="direction">180</angle>
         <index id="space">1</index>
         <index id="moveType">0</index>
         <real id="speed">400</real>
       </attributes>
     </behavior>
-    <behavior id="id522108" class="TimerBehavior" enabled="true">
+    <behavior id="id430970" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id353631" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+          <attributes>
+            <text id="name">default name</text>
+            <index id="conditionType">0</index>
+          </attributes>
+          <predicate type="collision">
+            <attributes>
+              <text id="prototypeKey">id357998</text>
+              <text id="actorTag" />
+              <real id="mode">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id244809" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id266663" class="TimerBehavior" enabled="true">
       <attributes>
         <text id="name">Timer</text>
         <text id="bundleName">Timer.behavior</text>
@@ -42,50 +72,7 @@
         <boolean id="runToCompletion">false</boolean>
       </attributes>
       <behaviors>
-        <behavior id="id275911" class="DestroyAction" enabled="true">
-          <attributes>
-            <text id="name">Destroy</text>
-            <text id="bundleName">Destroy.behavior</text>
-          </attributes>
-        </behavior>
-      </behaviors>
-    </behavior>
-    <behavior id="id384754" class="RuleBehavior" enabled="true">
-      <attributes>
-        <text id="name">Rule</text>
-        <text id="bundleName">Rule.behavior</text>
-        <real id="compoundConditionKind">0</real>
-      </attributes>
-      <conditions>
-        <condition id="id700830" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id318781</text>
-              <text id="actorTag">Enemies</text>
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
-      </conditions>
-      <behaviors>
-        <behavior id="id404755" class="PlaySoundAction" enabled="true">
-          <attributes>
-            <text id="name">Play Sound</text>
-            <text id="bundleName">PlaySound.behavior</text>
-            <sound id="soundName">Explosion</sound>
-            <boolean id="loop">false</boolean>
-            <boolean id="runToCompletion">true</boolean>
-            <boolean id="positional">false</boolean>
-            <boolean id="dopplerShift">false</boolean>
-            <real id="volume">1</real>
-            <real id="pitch">1</real>
-          </attributes>
-        </behavior>
-        <behavior id="id314191" class="DestroyAction" enabled="true">
+        <behavior id="id328788" class="DestroyAction" enabled="true">
           <attributes>
             <text id="name">Destroy</text>
             <text id="bundleName">Destroy.behavior</text>

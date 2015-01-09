@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id478520" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id478520" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Play Button</text>
     <real id="time">0</real>
@@ -8,7 +8,7 @@
       <real id="y">0</real>
     </point>
     <size id="size">
-      <real id="width">336</real>
+      <real id="width">138</real>
       <real id="height">367</real>
     </size>
     <angle id="rotation">0</angle>
@@ -54,7 +54,7 @@
           <attributes>
             <text id="name">Change Scene</text>
             <text id="bundleName">ChangeScene.behavior</text>
-            <text id="sceneKey">id996813</text>
+            <text id="sceneKey">id885113</text>
             <boolean id="enableAdvertisement">false</boolean>
           </attributes>
         </behavior>

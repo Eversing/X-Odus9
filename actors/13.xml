@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id800374" PGFVersion="0.19" GSCVersion="0.10.0">
+<actor id="id800374" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Back</text>
     <real id="time">0</real>
@@ -56,6 +56,14 @@
             <text id="bundleName">ChangeScene.behavior</text>
             <text id="sceneKey">id294879</text>
             <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id949846" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id720936</text>
+            <text id="RHS">0</text>
           </attributes>
         </behavior>
       </behaviors>
